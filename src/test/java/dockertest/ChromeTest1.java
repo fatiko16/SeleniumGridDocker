@@ -12,7 +12,7 @@ public class ChromeTest1 {
     @Test
     public void test1() throws MalformedURLException {
         DesiredCapabilities dc = DesiredCapabilities.chrome();
-        URL url = new URL("http://localhost:4444/wd/hub");
+        URL url = new URL("http://18.212.73.27:4444/wd/hub");
 
         RemoteWebDriver driver = new RemoteWebDriver(url,dc);
         driver.get("https://www.amazon.com");
